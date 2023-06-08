@@ -1,0 +1,14 @@
+#groupbg{
+  background-color: rgb(227, 235, 235);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  position: relative;
+  overflow: scroll;
+
+}
+
+

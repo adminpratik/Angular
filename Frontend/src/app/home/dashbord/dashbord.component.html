@@ -1,0 +1,24 @@
+<app-navbar></app-navbar>
+<div class="bg">
+  <div class="container">
+    <ul class="list-group pt-4">
+      <li
+        [routerLink]="['/home/create-group', groups._id]"
+        *ngFor="let groups of groupList"
+        class="list-group-item"
+      >
+        <div class="d-flex align-items-center">
+          <div class="mr-3">
+            <ngx-avatar
+            [size]="50"
+            *ngIf="groups"
+            [src]="groups?.avatar"
+            [value]=" groups?.name.charAt(0)"
+          ></ngx-avatar>
+          </div>
+          <h4 class="flex-grow-1 text-center group-name">{{ groups.name }}</h4>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>

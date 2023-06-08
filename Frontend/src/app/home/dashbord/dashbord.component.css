@@ -1,0 +1,36 @@
+.bg{
+  background-color: rgb(227, 235, 235);
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  overflow: scroll;
+}
+
+
+.list-group-item {
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  border-radius: 10%;
+  margin-bottom: 10px;
+  padding: 6px;
+  transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #e9ecef;
+  cursor: pointer;
+  border-color: #adb5bd;
+}
+
+.group-name {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.text-center {
+  text-align: center;
+}
