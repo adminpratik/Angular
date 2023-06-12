@@ -16,9 +16,9 @@ const expenseRoute = require('./routes/expense');
 
 
 // app.use('/posts',postRoute)
-app.use('/user',userRoute)
-app.use('/group',groupRoute)
-app.use('/expense',expenseRoute)
+app.use('/api/user',userRoute)
+app.use('/api/group',groupRoute)
+app.use('/api/expense',expenseRoute)
 
 app.use((req,res,next)=>{
     res.status(404).json({
